@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://topempreender.com/wp-content/uploads/2020/08/artigo_blog_6-4.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Mudamos a cor do texto para branco para melhor visibilidade */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 80%; /* Limita a largura do contêiner */
+    margin: 0 auto; /* Centraliza o contêiner */
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em; /* Reduz o tamanho da fonte em telas pequenas */
+    }
+    
+    button {
+        font-size: 14px; /* Ajusta o tamanho da fonte do botão */
+    }
+}
